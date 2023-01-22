@@ -111,7 +111,7 @@ const tourSchema = new mongoose.Schema(
       },
     ],
   },
-
+  // this allows you to add virtual properties to the output when converted to JSON OR OBJECT;
   {
     toJSON: {
       virtuals: true,
