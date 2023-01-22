@@ -30,7 +30,7 @@ html {
 body {
   line-height: 1.6;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #777;
   padding: 3rem;
   min-height: 100vh;
@@ -114,13 +114,7 @@ body {
   font-size: 2.25rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#7dd56f),
-    to(#28b487)
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#7dd56f), to(#28b487));
   background-image: linear-gradient(to right, #7dd56f, #28b487);
   -webkit-background-clip: text;
   color: transparent;
@@ -129,13 +123,7 @@ body {
   display: inline-block;
 }
 .heading-secondary--error {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#ff7730),
-    to(#eb4d4b)
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff7730), to(#eb4d4b));
   background-image: linear-gradient(to right, #ff7730, #eb4d4b);
   font-size: 3.5rem;
 }
@@ -159,11 +147,7 @@ body {
     from(rgba(125, 213, 111, 0.85)),
     to(rgba(40, 180, 135, 0.85))
   );
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(125, 213, 111, 0.85),
-    rgba(40, 180, 135, 0.85)
-  );
+  background-image: linear-gradient(to bottom right, rgba(125, 213, 111, 0.85), rgba(40, 180, 135, 0.85));
 }
 
 .heading-primary {
@@ -337,18 +321,8 @@ body {
 .section-header {
   position: relative;
   height: 38vw;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - var(--section-rotate)),
-    0 100%
-  );
-  -webkit-clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - var(--section-rotate)),
-    0 100%
-  );
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--section-rotate)), 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--section-rotate)), 0 100%);
 }
 
 .header__hero {
@@ -368,13 +342,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7dd56f), to(#28b487));
   background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   opacity: 0.85;
 }
@@ -504,18 +472,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  clip-path: polygon(
-    0 var(--section-rotate),
-    100% 0,
-    100% calc(100% - var(--section-rotate)),
-    0 100%
-  );
-  -webkit-clip-path: polygon(
-    0 var(--section-rotate),
-    100% 0,
-    100% calc(100% - var(--section-rotate)),
-    0 100%
-  );
+  clip-path: polygon(0 var(--section-rotate), 100% 0, 100% calc(100% - var(--section-rotate)), 0 100%);
+  -webkit-clip-path: polygon(0 var(--section-rotate), 100% 0, 100% calc(100% - var(--section-rotate)), 0 100%);
   margin-top: calc(0px - var(--section-rotate));
   position: relative;
   z-index: 1000;
@@ -552,7 +510,7 @@ body {
 }
 
 .marker {
-  background-image: url('../img/pin.png');
+  background-image: url("../img/pin.png");
   background-size: cover;
   width: 32px;
   height: 40px;
@@ -565,7 +523,7 @@ body {
 
 .mapboxgl-popup-content {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 1.5rem !important;
   font-size: 1.4rem;
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15) !important;
@@ -577,26 +535,10 @@ body {
   padding: calc(5rem + var(--section-rotate)) 0;
   position: relative;
   z-index: 1000;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
+  background: -webkit-gradient(linear, left top, right bottom, from(#7dd56f), to(#28b487));
   background: linear-gradient(to right bottom, #7dd56f, #28b487);
-  clip-path: polygon(
-    0 var(--section-rotate),
-    100% 0,
-    100% calc(100% - var(--section-rotate)),
-    0 100%
-  );
-  -webkit-clip-path: polygon(
-    0 var(--section-rotate),
-    100% 0,
-    100% calc(100% - var(--section-rotate)),
-    0 100%
-  );
+  clip-path: polygon(0 var(--section-rotate), 100% 0, 100% calc(100% - var(--section-rotate)), 0 100%);
+  -webkit-clip-path: polygon(0 var(--section-rotate), 100% 0, 100% calc(100% - var(--section-rotate)), 0 100%);
 }
 
 .reviews {
@@ -629,7 +571,7 @@ body {
 }
 .reviews:before,
 .reviews:after {
-  content: '';
+  content: "";
   width: 2rem;
 }
 .reviews__avatar {
@@ -715,13 +657,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
+  background: -webkit-gradient(linear, left top, right bottom, from(#7dd56f), to(#28b487));
   background: linear-gradient(to right bottom, #7dd56f, #28b487);
   z-index: 10;
   -webkit-transform: translate(-35%, -50%);
@@ -772,13 +708,7 @@ body {
   -webkit-box-flex: 32rem;
   -ms-flex: 32rem 0 0px;
   flex: 32rem 0 0;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7dd56f), to(#28b487));
   background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   padding: 4rem 0;
 }
@@ -1108,13 +1038,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7dd56f), to(#28b487));
   background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   opacity: 0.7;
 }
